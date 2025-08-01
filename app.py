@@ -40,7 +40,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Image
-st.image("ev-car-factory.jpg", use_container_width=True)
+st.image("ev-car-factory.jpg", use_column_width=True)
 
 # Instruction line
 st.markdown("""
@@ -256,3 +256,4 @@ if multi_counties:
 st.success("Forecast complete")
 
 st.markdown("Developed as part of the AICTE Internship - EV Charging Demand Forecasting Project by N.Sai Akshay Reddy")
+
